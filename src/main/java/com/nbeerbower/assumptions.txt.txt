@@ -1,0 +1,4 @@
+1. Synonym input file is formatted correctly i.e. each synonym group is on its own line and words are delimited by a space
+2. Words from input sources are delimited by punctuation (, ! ? .) and whitespace
+3. Tuple size of less than 1 will throw an exception
+4. A tuple size greater than the number of words in either file will return 0%
